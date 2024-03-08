@@ -1,0 +1,77 @@
+package in.sid.SpringDataJpa;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Optional;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+
+		UserRepository userRepository = context.getBean(UserRepository.class);
+		
+		List<User> getalluserbyCountry = userRepository.getAllUserByCountryHql("USA");
+		getalluserbyCountry.forEach(user ->{System.out.println(user);});
+		
+		List<User> getalluserbyCountryAge = userRepository.getAllUserByCountrySql("India", 34);
+		getalluserbyCountryAge.forEach(user ->{System.out.println(user);});
+		
+//		List<User> getalluser = userRepository.getAllUserHql();
+//		getalluser.forEach(user->{System.out.println(user);});
+//		System.out.println("=================================================================");		
+//		List<User> getalluserSql = userRepository.getAllUserSql();
+//		getalluserSql.forEach(user->{System.out.println(user);});
+		
+//		List<User> findcountry=userRepository.findByCountry("India");
+//		findcountry.forEach(user ->{System.out.println(user);});
+//		
+//		List<User> findage = userRepository.findByAge(30);
+//		findage.forEach(user ->{System.out.println(user);});
+		
+//		List<User> list=userRepository.findByAgeGreaterThanEqual(33);
+//		list.forEach(user ->{System.out.println(user);});
+		/*
+		 * User u1 = new User(103,"Akshay","Male",30,"India"); User u2 = new
+		 * User(104,"Rajendra","Male",34,"India"); User u3 = new
+		 * User(105,"Sachin","Male",33,"India"); User u4 = new
+		 * User(106,"Ching","Male",32,"Japan"); User u5 = new
+		 * User(107,"Smith","Male",32,"Canada"); User u6 = new
+		 * User(108,"John","Male",32,"USA");
+		 * 
+		 * userRepository.saveAll(Arrays.asList(u1,u2,u3,u4,u5,u6));
+		 */
+		 
+		/*
+		 * Optional<User> findbyid = userRepository.findById(106);
+		 * if(findbyid.isPresent()) { System.out.println(findbyid.get()); }
+		 */
+
+		/*
+		 * Iterable<User> findbyall =
+		 * userRepository.findAllById(Arrays.asList(103,104,105,106));
+		 * findbyall.forEach(user ->{System.out.println(user);});
+		 */
+
+		/*
+		 * Iterable<User> fiall = userRepository.findAll(); fiall.forEach(user
+		 * ->{System.out.println(user);});
+		 */
+		/*
+		 * Long count = userRepository.count();
+		 * System.out.println("Total Records in Table"+count);
+		 * 
+		 * boolean existrec = userRepository.existsById(120);
+		 * System.out.println("record present by iD 120:"+existrec);
+		 */
+
+		//userRepository.deleteById(105);
+		  
+	}
+
+}

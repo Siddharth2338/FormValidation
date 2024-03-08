@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;02-Spring-DataJpa&apos;" deleteContents="false" description="Delete resource &apos;02-Spring-DataJpa&apos;" element1="/02-Spring-DataJpa" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1700486326112"/>&#x0A;<refactoring comment="Rename resource &apos;05-Spring-Data-JPA-CompositKey-2&apos; to &apos;06-Spring-Data-JPA-CompositKey-2&apos;" description="Rename resource &apos;05-Spring-Data-JPA-CompositKey-2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/05-Spring-Data-JPA-CompositKey-2" name="06-Spring-Data-JPA-CompositKey-2" stamp="1700889264594" updateReferences="true"/>
+</session>

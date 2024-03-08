@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="creditCard" class="in.ashokit.Springcore2.CreditCard"/>
+ <bean id="debitCard" class="in.ashokit.Springcore2.DebitCard"/>
+ <bean id="upi" class="in.ashokit.Springcore2.Upi"/>
+ <bean id="billcoll" class="in.ashokit.Springcore2.BillCollector">
+ <property name="payment" ref="upi"/>
+ </bean>
+ 
+</beans>

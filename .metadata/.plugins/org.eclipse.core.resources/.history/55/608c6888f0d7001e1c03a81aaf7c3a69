@@ -1,0 +1,5 @@
+package com.SsnCheck.Repository;
+
+public interface SsnCheckRepository {
+
+}

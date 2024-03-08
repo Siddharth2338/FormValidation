@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SsnCheckController.java&apos; to &apos;04.SsnCheck/src/main/java/com.SsnCheck.Controller&apos;&#x0D;&#x0A;- Original project: &apos;04.SsnCheck&apos;&#x0D;&#x0A;- Destination element: &apos;04.SsnCheck/src/main/java/com.SsnCheck.Controller&apos;&#x0D;&#x0A;- Original element: &apos;com.SsnCheck.SsnCheckController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.SsnCheck.Controller" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.SsnCheck{SsnCheckController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1709313539673" units="1" version="1.0"/>
+</session>

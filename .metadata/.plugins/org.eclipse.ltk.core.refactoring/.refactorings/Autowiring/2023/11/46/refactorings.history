@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Autowiring/src/main/java/in/ashokit/Autowiring/BeanScope.xml&apos; to &apos;Autowiring.xml&apos;" description="Rename resource &apos;BeanScope.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/in/ashokit/Autowiring/BeanScope.xml" name="Autowiring.xml" stamp="1700136320199" updateReferences="true"/>
+</session>

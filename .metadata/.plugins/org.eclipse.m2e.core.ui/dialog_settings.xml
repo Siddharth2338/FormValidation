@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\shree\eclipse-workspace\AppJavaToJason"/>
+			<item value="C:\Users\shree\eclipse-workspace\AppJavaToJason\src\main\java\in\sid\json\AppJavaToJason\Convert\JsonToJavaConverter.java"/>
+			<item value="C:\Users\shree\eclipse-workspace\App17\src\main\java\in\sid\App17\Binding\Person.java"/>
+			<item value="C:\Users\shree\eclipse-workspace\12-Spring-WebMvc.FormApp1\src\main\java\in\sid\SpringWebMvc\FormApp\Binding\User.java"/>
+			<item value="C:\Users\shree\eclipse-workspace\BeanScope\src\main\java\in\ashokit\BeanScope\BeanScope.xml"/>
+			<item value="C:\Users\shree\eclipse-workspace\Springcore2\src\main\java\in\ashokit\Springcore2\BillCollector.java"/>
+			<item value="C:\Users\shree\eclipse-workspace\SpringAshokIt"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="in.sid.Gson"/>
+			<item value="in.sid.Gson.AppGson"/>
+			<item value="in.sid.json.AppJavaToJason"/>
+			<item value="in.sid.App17"/>
+			<item value="in.ashokit.Autowiring"/>
+			<item value="in.ashokit.BeanScope"/>
+			<item value="in.ashokit.Javascope"/>
+			<item value="in.ashokit.Springcore2"/>
+			<item value="in.ashokit._First_Spring_App"/>
+		</list>
+		<list key="groupId">
+			<item value="in.sid.Gson"/>
+			<item value="in.sid.json"/>
+			<item value="in.sid"/>
+			<item value="in.ashokit"/>
+		</list>
+		<list key="artifactId">
+			<item value="19Gson"/>
+			<item value="19AppGson"/>
+			<item value="AppJavaToJason"/>
+			<item value="App17"/>
+			<item value="Autowiring"/>
+			<item value="BeanScope"/>
+			<item value="Javascope"/>
+			<item value="Springcore2"/>
+			<item value="01-First-Spring-App"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\Users\SIDDHARTH\eclipse-workspace"/>
+			<item value="C:\Users\shree\Downloads\in.FirstApp\in.FirstApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

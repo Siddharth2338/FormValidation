@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean name="student1" class="in.sid.collection.Student">
+	
+	<property name="name" value="Siddharth Jadhav" />
+	<property name="phones">
+		<list>
+			<value>7898789878</value>
+			<value>9878965325</value>
+			<value>9658745688</value>
+		</list>
+	</property>
+	<property name="addresses">
+		<set>
+			<value>Pune</value>
+			<value>Mumbai</value>
+			<value>Delhi</value>
+		</set>
+	</property>
+	
+	<property name="courses">
+		<map>
+			<entry key="java" value="6months"/>
+			<entry key="python" value="4months"/>
+			<entry key="c" value="3months"/>
+		</map>
+		</property>
+</bean>
+</beans>

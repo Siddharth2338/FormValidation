@@ -1,0 +1,11 @@
+package com.SsnCheck.Entity;
+
+import jakarta.persistence.Id;
+
+
+public class SsnEntity {
+	
+	@Id
+	private Long ssn;
+
+}

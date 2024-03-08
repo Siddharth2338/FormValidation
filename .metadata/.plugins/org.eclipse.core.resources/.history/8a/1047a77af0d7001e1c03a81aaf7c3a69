@@ -1,0 +1,5 @@
+package com.SsnCheck.Entity;
+
+public class SsnEntity {
+
+}

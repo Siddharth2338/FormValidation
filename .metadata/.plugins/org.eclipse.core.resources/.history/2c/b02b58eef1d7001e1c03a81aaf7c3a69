@@ -1,0 +1,17 @@
+package com.SsnCheck.Controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SsnCheckController {
+	
+	
+	public ResponseEntity<String> checkState(Long ssn){
+		
+		
+		
+		return null;		
+	}
+
+}

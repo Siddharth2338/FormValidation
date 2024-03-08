@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean class="in.sid.springcore.practice.p1.Company" name="comp">
+<constructor-arg>
+	<value>Brainworks</value>
+</constructor-arg>
+</bean>
+
+<bean class="in.sid.springcore.practice.p1.Employee" name="emp">
+<constructor-arg name="name" value="Siddharth" />
+<constructor-arg name="salary" value="1500000" />
+<constructor-arg ref="comp" />
+	
+
+<constructor-arg name="addresses">
+	<list>
+	<value>narhe</value>
+		<value>ambegaon</value>
+		<value>wadgaon</value>
+		<value>dhayari</value>
+		
+	</list>
+</constructor-arg>
+
+<constructor-arg name="phones">
+	<set>
+		<value>9878655552</value>
+		<value>9878644452</value>
+		<value>9878666652</value>
+	</set>
+</constructor-arg>
+	
+<constructor-arg name="department">
+	<map>
+		<entry key="dep1" value="101" />
+		<entry key="dep2" value="102" />
+		<entry key="dep3" value="103" />
+	</map>
+</constructor-arg>
+</bean>
+</beans>

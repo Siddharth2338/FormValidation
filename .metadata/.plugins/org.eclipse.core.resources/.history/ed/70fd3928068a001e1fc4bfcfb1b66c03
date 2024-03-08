@@ -1,0 +1,52 @@
+package in.sid.SpringDataJpa;
+
+import java.util.Arrays;
+import java.util.Optional;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
+		
+		UserRepository userRepository = context.getBean(UserRepository.class);
+		
+		/*
+		 * User u1 = new User(103,"Akshay","Male",30,"India"); User u2 = new
+		 * User(104,"Rajendra","Male",34,"India"); User u3 = new
+		 * User(105,"Sachin","Male",33,"India"); User u4 = new
+		 * User(106,"Siddharth","Male",32,"India");
+		 * 
+		 * userRepository.saveAll(Arrays.asList(u1,u2,u3,u4));
+		 */
+		/*
+		 * Optional<User> findbyid = userRepository.findById(106);
+		 * if(findbyid.isPresent()) { System.out.println(findbyid.get()); }
+		 */
+		
+		/*
+		 * Iterable<User> findbyall =
+		 * userRepository.findAllById(Arrays.asList(103,104,105,106));
+		 * findbyall.forEach(user ->{System.out.println(user);});
+		 */
+		
+		/*
+		 * Iterable<User> fiall = userRepository.findAll(); fiall.forEach(user
+		 * ->{System.out.println(user);});
+		 */
+		/*
+		 * Long count = userRepository.count();
+		 * System.out.println("Total Records in Table"+count);
+		 * 
+		 * boolean existrec = userRepository.existsById(120);
+		 * System.out.println("record present by iD 120:"+existrec);
+		 */
+		
+		userRepository.deleteById(105);
+	}
+
+}
